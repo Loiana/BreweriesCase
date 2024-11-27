@@ -28,10 +28,11 @@ Para isso, utilizamos o **Airflow** como ferramenta de orquestração, o **Docke
 
    
 2. **Start Docker**:
+   (Com o Docker Desktop em execução)
    ```bash
-   docker-compose up --build -d
+   docker compose up airflow-init
 
-3. **Access the Airflow interface:**:
+4. **Access the Airflow interface:**:
 
    URL: http://localhost:8080
 
