@@ -1,0 +1,9 @@
+default:
+
+  API_URL: https://api.openbrewerydb.org/breweries
+
+  MINIO_URL: http://host.docker.internal:9000
+  ACCESS_KEY: minioadmin
+  SECRET_KEY: minioadmin123
+
+  PARTITIONING_COLUMN: country #city, state_province, postal_code, country, state
