@@ -33,19 +33,21 @@ Para isso, utilizamos o **Airflow** como ferramenta de orquestração, o **Docke
 
 3. **Access the Airflow interface:**:
 
-URL: http://localhost:8080
+   URL: http://localhost:8080
 
-Username: airflow
-Password: airflow
+   Username: airflow
+   
+   Password: airflow
 
-4. **Access the OminIO interface**:
+5. **Access the OminIO interface**:
 
-URL: http://localhost:9001
+   URL: http://localhost:9001
 
-Username: ominioadmin
-Password: ominioadmin123
+   Username: ominioadmin
+   
+   Password: ominioadmin123
 
-5. **Criar os seguintes buckets no OminIO**:
+6. **Criar os seguintes buckets no OminIO**:
 
 - bronze-layer
 - silver_layer
